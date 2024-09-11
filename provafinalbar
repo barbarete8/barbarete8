@@ -1,0 +1,18 @@
+#constantes
+voto_joel = 0
+voto_esmaela = 0 
+
+while
+    print(f"menu de votação:\n1.votos de joel:{voto_joel}\n2.voto de esmaela:{voto_esmaela}\n3.sair do programa:")
+try:
+    votos = int(input(">"))
+    if votos == 1:
+        voto_joel += 1
+    elif votos == 2:      
+        voto_esmaela += 1  
+    elif votos == 3:
+        print("saindo do programa..")    
+    else:
+        pass
+except:
+    print("só opção 1, 2 ou 3")    
